@@ -3,6 +3,15 @@ All code and output files for Project 1 of Computational Physics
 
 Submission for Britt Haanen
 
+# Folder structure
+The main folder contains the .cpp and .exe files for the problems that required coding.
+
+\include contains the header files with all the function declarations that I use in my codes.
+
+\src contains the .cpp files with the associated function definitions.
+
+\Project 1 contains all the output files from running the codes. It also contains all the png files of the plots that were created in the Jupyter notebook to visualise my results.
+
 # How to compile and run
 The code for each problem is written in the .cpp file with the associated problem name. I have already compiled the code into .exe files for each problem. If you wish to recompile, simply use g++ ProblemX.cpp src/*.cpp -I include -o ProblemX.exe
 Then run the file using ./ProblemX.exe
