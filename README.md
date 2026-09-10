@@ -12,6 +12,8 @@ The main folder contains the .cpp and .exe files for the problems that required 
 
 \Project 1 contains all the output files from running the codes. It also contains all the png files of the plots that were created in the Jupyter notebook to visualise my results.
 
+\AI logs includes my interaction with ChatGPT to debug my implementation of problem 7a. Turns out a tilde was the problem :) see also my opened git issue at https://github.uio.no/anderkve/FYS3150-forum/issues/100
+
 # How to compile and run
 The code for each problem is written in the .cpp file with the associated problem name. I have already compiled the code into .exe files for each problem. If you wish to recompile, simply use g++ ProblemX.cpp src/*.cpp -I include -o ProblemX.exe
 Then run the file using ./ProblemX.exe
